@@ -1,0 +1,26 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Instantiate_Ob : MonoBehaviour
+{
+
+    
+    public GameObject OBJ;
+    public float PosX, PosY, PosZ;
+    Vector3 objPos;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        GameObject.Instantiate(OBJ, new Vector3((float)PosX, (float)PosY, (float)PosZ), Quaternion.identity);
+    }
+
+    private void Update()
+    {
+       
+    }
+
+}
