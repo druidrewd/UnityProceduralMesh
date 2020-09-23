@@ -9,7 +9,6 @@ public class Instantiate_Ob : MonoBehaviour
     
     public GameObject OBJ;
     public float PosX, PosY, PosZ;
-    Vector3 objPos;
 
 
     // Start is called before the first frame update
